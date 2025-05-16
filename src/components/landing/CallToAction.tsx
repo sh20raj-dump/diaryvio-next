@@ -22,10 +22,10 @@ export default function CallToAction() {
                 </p>
                 <div className="flex flex-col sm:flex-row justify-center gap-4">
                   <Link
-                    href="/todos"
+                    href="/diary"
                     className="bg-white text-indigo-600 px-8 py-3 rounded-full text-lg font-medium hover:bg-indigo-50 transition-colors shadow-lg"
                   >
-                    Go to Dashboard
+                    Go to Diary
                   </Link>
                 </div>
               </>
@@ -45,7 +45,7 @@ export default function CallToAction() {
                     Get Started Free
                   </Link>
                   <Link
-                    href="/todos"
+                    href="/diary"
                     className="bg-transparent border-2 border-white text-white px-8 py-3 rounded-full text-lg font-medium hover:bg-white/10 transition-colors"
                   >
                     Try Demo

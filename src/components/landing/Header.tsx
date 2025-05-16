@@ -61,10 +61,10 @@ export default function Header() {
             Testimonials
           </Link>
           <Link
-            href="/todos"
+            href="/diary"
             className="text-slate-700 dark:text-slate-200 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors"
           >
-            App
+            Diary
           </Link>
           {isLoading ? (
             <div className="bg-gradient-to-r from-indigo-600 to-violet-500 text-white px-5 py-2 rounded-full opacity-80">
@@ -96,7 +96,7 @@ export default function Header() {
               {isUserMenuOpen && (
                 <div className="absolute right-0 mt-2 w-48 bg-white dark:bg-slate-800 rounded-md shadow-lg py-1 z-50">
                   <Link
-                    href="/todos"
+                    href="/diary"
                     className="block px-4 py-2 text-sm text-slate-700 dark:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-700"
                     onClick={() => setIsUserMenuOpen(false)}
                   >
@@ -167,11 +167,11 @@ export default function Header() {
               Testimonials
             </Link>
             <Link
-              href="/todos"
+              href="/diary"
               className="text-slate-700 dark:text-slate-200 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors py-2"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              App
+              Diary
             </Link>
             {isLoading ? (
               <div className="bg-gradient-to-r from-indigo-600 to-violet-500 text-white px-5 py-2 rounded-full opacity-80 text-center">
@@ -180,7 +180,7 @@ export default function Header() {
             ) : isAuthenticated ? (
               <>
                 <Link
-                  href="/todos"
+                  href="/diary"
                   className="text-slate-700 dark:text-slate-200 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors py-2"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >

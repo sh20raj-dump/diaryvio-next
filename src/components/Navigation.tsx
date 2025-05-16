@@ -12,7 +12,7 @@ export default function Navigation() {
           <Link href="/" className="hover:underline">
             Landing
           </Link>
-          <Link href="/todos" className="hover:underline">
+          <Link href="/diary" className="hover:underline">
             Dashboard
           </Link>
           <Link href="/users/new" className="hover:underline">

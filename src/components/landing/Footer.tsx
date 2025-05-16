@@ -60,7 +60,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/todos" className="text-slate-400 hover:text-white transition-colors">
+                <Link href="/diary" className="text-slate-400 hover:text-white transition-colors">
                   App
                 </Link>
               </li>
